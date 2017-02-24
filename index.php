@@ -61,12 +61,11 @@
 
 		<div class="titulo_1">
 			<img src="img/imagen1.png" width="100%" height="400px">
-			<hr style="color: white; background-color: black; width:100%; margin-top:-2%;" />
-			<hr style="color: white; background-color: black; width:100%; margin-top:-3%;" />
+			
 
 		</div>
 
-		<nav class="navbar navbar-inverse" role="navigation" style="margin-top:3%;">
+		<nav class="navbar navbar-inverse" role="navigation" style="margin-top:0%;">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="sr-only">Desplegar Informacion</span>
@@ -94,11 +93,23 @@
 			</div>
 		</nav>
 
-		<div style="position:absolute; left:34px; top:520px; width:79px; height:53px; color:#940114;">
-			<span class="estilo">Nuestros Sorteos Zocalo 2017</span>
-			<br>
-			"El periodico de Saltillo"
+
+	
+
+		<img src="img/NFL.jpg" class="img-responsive" alt="example" style="margin-top:50px;padding-left:25px;width: 900px;height: 400px;">
+
 		</div>
+		<hr>
+
+
+	</div>
+	</div>	
+	
+		
+
+		
+
+
 
 	<form id="form_reg" style="display:none;">
 		<div id="des"></div>
