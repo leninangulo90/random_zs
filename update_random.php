@@ -2,7 +2,7 @@
   //conectar al servidor, usuario, pwd
   $conexionBD = mysql_connect('localhost', 'root', '') or die('No se pudo establecer la conexion con la base de datos');
   //conectar a base de datos
-  mysql_select_db('imagen') or die('No se puede abrir la base de datos Almacen');
+  mysql_select_db('random_zs') or die('No se puede abrir la base de datos Almacen');
   //formar el query
 
   $valor   = $_POST['valor'];
