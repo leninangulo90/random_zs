@@ -26,7 +26,7 @@
 $conexionBD = mysql_connect('localhost', 'root', '') or die('No se pudo establecer la conexion con la base de datos');
 //conectar a base de datos
 mysql_select_db('imagen') or die('No se puede abrir la base de datos imagen');
-$sql = mysql_query("SELECT * FROM registro_usuario where valor = 'seleccionado' order by RAND() limit 1;");
+$sql = mysql_query("SELECT * FROM registro_usuario where valor = 'SORTEO TELEVISION' order by RAND() limit 1;");
 
 
 

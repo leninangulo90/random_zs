@@ -12,30 +12,14 @@
 		<script src="bootstrap/script/bootstrap.min.js"></script>
 
 		<script type="text/javascript">
-			$(document).ready(function(){
-			$("#submit").click(function(e){
-				alert('Hola');
-				e.preventDefault();
-				$("#des").load("seleccionar_ganador.php");
-			});
-		});
+			
 		</script>
 </head>
 <body>
 
 	
 	
-		<form method="POST" action="update_random.php">
-		<div id="des"></div>
-			<div class="form-group">
-				<div class="col-sm-offset-2 col-sm-10">
-					<button type="submit" name="button" id="button" class="btn btn-default">Reiniciar</button>
-					<button type="button" name="submit" id="submit" class="btn btn-success">Sortear</button>
-
-				</div>
-			</div>
-		</form>
-
+		
 			
 	</div>
 </body>

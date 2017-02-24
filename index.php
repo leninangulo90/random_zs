@@ -15,7 +15,7 @@
 		<script>
 			$(document).ready(function(){
 				var valor,id_usuario;
-				$('#form-reg').submit(function(e) {
+				$('#form_reg').submit(function(e) {
 					valor = $("#valor").val();
 					id_usuario = $("#id_usuario").val();
 
@@ -39,17 +39,16 @@
 				});
 
 
-				$("#button").click(function(e){
+				$("#submit").click(function(e){
 					alert('Hola');
 					e.preventDefault();
 					$("#des").load("seleccionar_ganador.php");
 				});
 
 
-				$("#enla").click(function(e){
+				$("#mostrar").click(function(e){
 					alert('Hola');
-					e.preventDefault();
-					$("#des").load("");
+					$('#form_reg').css("display","block");
 				});
 
 
@@ -80,7 +79,7 @@
 
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a>Sorteos Zocalos Saltillo SA de CV</a></li>
+					<li class="active" id="mostrar"><a>Sorteos Zocalos Saltillo SA de CV</a></li>
 
 				</ul>
 
@@ -100,25 +99,18 @@
 			<br>
 			"El periodico de Saltillo"
 		</div>
-	<!-- 	<div id="destino_forms"></div>
 
+	<form id="form_reg" style="display:none;">
+		<div id="des"></div>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" name="button" id="button" class="btn btn-default">Reiniciar</button>
+					<button type="button" name="submit" id="submit" class="btn btn-success">Sortear</button>
 
-		<div class="well col-sm-12	">
-			<form id="form-reg">
-				<div id="des"></div>
-				<div class="form-group">
-					<div class="col-sm-offset-2 col-sm-10">
-						<button type="submit" name="submit" id="submit" class="btn btn-default">Reiniciar</button>
-						<button type="button" name="button" id="button" class="btn btn-success">Sortear</button>
-
-					</div>
 				</div>
-			</form>
+			</div>
+		</form>
 
-		</div>
-	</div>
-
-	 -->
 </body>
 
 </html>
