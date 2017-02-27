@@ -23,6 +23,7 @@
 						type: 'POST',
 						data: {valor:valor,id_usuario:id_usuario}
 					});
+					
 				response.done(function(data, jqXHR, textStatus, errorThrown) {
 				if (textStatus.status === 202) {
 					alert('.::::GANADOR::::.');

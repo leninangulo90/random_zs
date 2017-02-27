@@ -1,6 +1,4 @@
-
 .form{
-
 	margin-left: 430px;
 	margin-top: 30px;
 }
@@ -20,7 +18,6 @@
 }
 
 .hr-1 {
-
    border-top: 2px solid gray; 
    border-bottom: 2px solid gray; 
    border-left:none; 
@@ -30,9 +27,7 @@
    width: 80%; 
  }
 
-
  .hr-2 {
-
    border-top: 2px solid gray; 
    border-bottom: 2px solid gray; 
    border-left:none; 
@@ -49,7 +44,6 @@
 }
 
 .presentacion {
-
 	margin-top: 30px;
 }
 .presentacion h2 {
